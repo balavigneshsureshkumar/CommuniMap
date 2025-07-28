@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,11 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="nav-container">
@@ -30,11 +34,21 @@
     <section id="hero" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Gamifying Sustainable Transport</h1>
-                <h2 class="hero-subtitle"><span class="logo-primary">communi</span><span class="logo-secondary">Map</span></h2>
-                <p class="hero-description">
-                    Encouraging active travel through CO₂ offset tracking with an engaging pet avatar system
-                </p>
+                <div class="hero-text">
+                    <h1 class="hero-title">Active travel</h1>
+                    <h2 class="hero-subtitle">gamification</h2>
+                    <h3 class="hero-tertiary">to track <span class="highlight">your</span></h3>
+                    <h4 class="hero-quaternary">CO₂ impact</h4>
+                    <p class="hero-description">
+                        Transform how communities engage with sustainable transport. Our gamified CommuniMap enhancement
+                        uses pet avatars and CO₂ tracking to encourage walking and cycling, making climate action fun
+                        and rewarding for everyone.
+                    </p>
+                    <div class="hero-cta">
+                        <input type="email" placeholder="Email address" class="email-input">
+                        <button class="cta-button">Learn more</button>
+                    </div>
+                </div>
                 <div class="hero-image">
                     <img src="images/new-prototype/home-screen.png" alt="Enhanced CommuniMap Home Screen" />
                 </div>
@@ -42,26 +56,36 @@
         </div>
     </section>
 
+    <section class="partners">
+        <div class="container">
+            <div class="partners-grid">
+                <div class="partner-logo">University of Glasgow</div>
+                <div class="partner-logo">GALLANT Project</div>
+                <div class="partner-logo">Movement Co-Lab</div>
+                <div class="partner-logo">Climate Research</div>
+                <div class="partner-logo">Community Science</div>
+                <div class="partner-logo">Active Travel</div>
+            </div>
+        </div>
+    </section>
+
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About CommuniMap</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>
-                        <strong>GALLANT</strong> (Glasgow as a Living Lab Accelerating Novel Transformation) is a University project aiming to design novel ways to adapt to climate change. The Community Collaboration workstream facilitates various community science projects including "Movement Co-Lab" exploring how people move through their communities.
+                    <p class="section-label">About CommuniMap</p>
+                    <h2 class="large-title">GALLANT Project Overview</h2>
+                    <p class="about-description">
+                        <strong>GALLANT</strong> (Glasgow as a Living Lab Accelerating Novel Transformation) is a
+                        University project aiming to design novel ways to adapt to climate change. CommuniMap is a
+                        digital tool that acts as a data repository for community science data, allowing users to share
+                        travel patterns, map routes, flag barriers, and highlight safe, joyful routes.
                     </p>
-                    <p>
-                        CommuniMap is a digital tool that acts as a data repository for community science data, allowing users to:
-                    </p>
-                    <ul class="feature-list">
-                        <li>Share how they travel — by foot, wheels, or otherwise</li>
-                        <li>Map their routes</li>
-                        <li>Flag barriers (e.g. broken pavements, missing crossings)</li>
-                        <li>Highlight routes that feel safe, joyful, or inspiring</li>
-                    </ul>
                 </div>
-                <div class="about-image">
-                    <img src="images/original-prototype/home-screen-og.jpg" alt="Original CommuniMap Interface" />
+                <div class="about-visual">
+                    <div class="about-image">
+                        <img src="images/original-prototype/home-screen-og.jpg" alt="Original CommuniMap Interface" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -74,7 +98,8 @@
                 <div class="problem-statement">
                     <h3>Promoting Active Travel & CO₂ Awareness</h3>
                     <p>
-                        There is interest in finding ways to promote active travel and spread awareness of the amount of carbon dioxide (CO₂) saved from entering the environment through each active journey taken.
+                        There is interest in finding ways to promote active travel and spread awareness of the amount of
+                        carbon dioxide (CO₂) saved from entering the environment through each active journey taken.
                     </p>
                     <div class="challenge-points">
                         <div class="challenge-point">
@@ -98,32 +123,48 @@
     <section id="approach" class="approach">
         <div class="container">
             <h2 class="section-title">Our Ideation Process</h2>
-            <p class="section-description">We explored multiple gamification approaches before settling on our final solution</p>
+            <p class="section-description">We explored multiple gamification approaches before settling on our final
+                solution</p>
             <div class="ideas-grid">
-                <div class="idea-card">
+                <div class="idea-card" data-idea="1">
                     <h3>Idea 1</h3>
-                    <div class="idea-images">
-                        <img src="images/idea-1/photo_1_2025-07-28_21-32-03.jpg" alt="Idea 1 Sketch" />
+                    <div class="idea-preview">
+                        <img src="images/idea-1/photo_1_2025-07-28_21-32-03.jpg" alt="Idea 1 Preview" />
                     </div>
+                    <p class="idea-description">Click to explore this concept</p>
                 </div>
-                <div class="idea-card">
+                <div class="idea-card" data-idea="2">
                     <h3>Idea 2</h3>
-                    <div class="idea-images">
-                        <img src="images/idea-2/photo_1_2025-07-28_21-32-40.jpg" alt="Idea 2 Sketch" />
+                    <div class="idea-preview">
+                        <img src="images/idea-2/photo_1_2025-07-28_21-32-40.jpg" alt="Idea 2 Preview" />
                     </div>
+                    <p class="idea-description">Click to explore this concept</p>
                 </div>
-                <div class="idea-card">
+                <div class="idea-card" data-idea="3">
                     <h3>Idea 3</h3>
-                    <div class="idea-images">
-                        <img src="images/idea-3/photo_1_2025-07-28_21-33-05.jpg" alt="Idea 3 Sketch" />
+                    <div class="idea-preview">
+                        <img src="images/idea-3/photo_1_2025-07-28_21-33-05.jpg" alt="Idea 3 Preview" />
                     </div>
+                    <p class="idea-description">Click to explore this concept</p>
                 </div>
-                <div class="idea-card selected">
+                <div class="idea-card selected active" data-idea="4">
                     <h3>Idea 4 - Selected</h3>
-                    <div class="idea-images">
-                        <img src="images/idea-4/photo_1_2025-07-28_21-33-05.jpg" alt="Selected Idea 4 Sketch" />
+                    <div class="idea-preview">
+                        <img src="images/idea-4/photo_1_2025-07-28_21-31-35.jpg" alt="Selected Idea 4 Preview" />
                     </div>
+                    <p class="idea-description">Our chosen solution - Click to explore</p>
                     <div class="selected-badge">✓ Selected</div>
+                </div>
+            </div>
+
+            <div class="idea-gallery">
+                <div class="gallery-header">
+                    <h3 id="gallery-title">Idea 4 - Selected Solution</h3>
+                    <p id="gallery-description">Detailed sketches and concepts for our pet avatar gamification system
+                    </p>
+                </div>
+                <div class="gallery-images" id="gallery-images">
+                    <!-- Images will be loaded dynamically -->
                 </div>
             </div>
         </div>
@@ -132,37 +173,37 @@
     <section id="solution" class="solution">
         <div class="container">
             <h2 class="section-title">Our Solution: Pet Avatar Gamification</h2>
+            <div class="solution-intro">
+                <h3>How We Gamified CommuniMap</h3>
+                <p>
+                    We implemented a <strong>pet avatar system</strong> that users can customize using points they
+                    gather from walking or cycling on their daily routes. The points represent their carbon offset from
+                    choosing to walk or cycle over taking private transportation.
+                </p>
+            </div>
+
             <div class="solution-content">
-                <div class="solution-description">
-                    <h3>How We Gamified CommuniMap</h3>
-                    <p>
-                        We implemented a <strong>pet avatar system</strong> that users can customize using points they gather from walking or cycling on their daily routes. The points represent their carbon offset from choosing to walk or cycle over taking private transportation.
-                    </p>
-                    <div class="solution-features">
-                        <div class="feature">
-                            <h4>🐾 Customizable Pet Avatar</h4>
-                            <p>Users earn a virtual pet that grows and evolves based on their sustainable travel choices</p>
-                        </div>
-                        <div class="feature">
-                            <h4>🌱 CO₂ Points System</h4>
-                            <p>Points are awarded based on calculated CO₂ savings from choosing active travel over private transport</p>
-                        </div>
-                        <div class="feature">
-                            <h4>🎨 Customization Rewards</h4>
-                            <p>Earned points can be spent on pet accessories, environments, and special features</p>
-                        </div>
-                        <div class="feature">
-                            <h4>📊 Progress Tracking</h4>
-                            <p>Visual journey progress showing environmental impact and pet development</p>
-                        </div>
+                <div class="solution-visual">
+                    <div class="feature-diagram">
+                        <div class="diagram-item active" data-feature="route-tracking">Route Tracking</div>
+                        <div class="diagram-item" data-feature="co2-calculation">CO₂ Calculation</div>
+                        <div class="diagram-item" data-feature="pet-avatar">Pet Avatar</div>
+                        <div class="diagram-item" data-feature="gamification">Gamification</div>
+                        <div class="diagram-item" data-feature="community">Community</div>
+                        <div class="diagram-item" data-feature="progress">Progress</div>
                     </div>
-                </div>
-                <div class="solution-sketches">
-                    <h4>Design Process</h4>
-                    <div class="sketch-gallery">
-                        <img src="images/idea-4/photo_1_2025-07-28_21-33-05.jpg" alt="Idea 4 Sketch 1" />
-                        <img src="images/idea-4/photo_2_2025-07-28_21-33-05.jpg" alt="Idea 4 Sketch 2" />
-                        <img src="images/idea-4/photo_3_2025-07-28_21-33-05.jpg" alt="Idea 4 Sketch 3" />
+                    <div class="feature-details">
+                        <div class="feature-detail-card" id="feature-details">
+                            <h4 id="feature-title">Route Tracking</h4>
+                            <p id="feature-description">Users can log their walking and cycling routes through the
+                                CommuniMap interface, creating a comprehensive database of active travel patterns across
+                                the community.</p>
+                            <div class="feature-benefits" id="feature-benefits">
+                                <div class="benefit-item">📍 GPS-based route logging</div>
+                                <div class="benefit-item">🗺️ Interactive map visualization</div>
+                                <div class="benefit-item">📊 Journey history tracking</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -230,17 +271,32 @@
             <div class="team-grid">
                 <div class="team-member">
                     <div class="member-avatar">👤</div>
-                    <h3>Team Member</h3>
+                    <h3>Balavignesh Suresh Kumar</h3>
                     <p>Role & Contribution</p>
                 </div>
                 <div class="team-member">
                     <div class="member-avatar">👤</div>
-                    <h3>Team Member</h3>
+                    <h3>Lin Feng</h3>
                     <p>Role & Contribution</p>
                 </div>
                 <div class="team-member">
                     <div class="member-avatar">👤</div>
-                    <h3>Team Member</h3>
+                    <h3>Felix</h3>
+                    <p>Role & Contribution</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👤</div>
+                    <h3>Kee Shen</h3>
+                    <p>Role & Contribution</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👤</div>
+                    <h3>Jovian</h3>
+                    <p>Role & Contribution</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👤</div>
+                    <h3>Fumio Yu</h3>
                     <p>Role & Contribution</p>
                 </div>
             </div>
@@ -271,4 +327,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
