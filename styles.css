@@ -767,6 +767,13 @@ section {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
+.essay-viewer h4,
+.essay-viewer p {
+    margin-top: 10px;
+    text-align: left;
+}
+
+
 .essay {
     display: none;
 }
@@ -792,6 +799,26 @@ section {
     color: var(--text-light);
     max-width: 800px;
     margin: 0 auto;
+}
+
+.proud-essay-container {
+    background: var(--background-light);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.proud-essay-container h4 {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 5px
+}
+
+.proud-essay-container p {
+    text-align: left;
 }
 
 .team {
