@@ -316,4 +316,20 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     navbar.style.transition = 'transform 0.3s ease';
+
+    const points = document.querySelectorAll('.timeline-point');
+    const essays = document.querySelectorAll('.essay');
+
+    points.forEach(point => {
+        point.addEventListener('click', () => {
+        // Reset active states
+        points.forEach(p => p.classList.remove('active'));
+        essays.forEach(e => e.classList.remove('active'));
+
+        // Activate selected
+        point.classList.add('active');
+        const index = point.getAttribute('data-index');
+        essays[index].classList.add('active');
+        });
+    });
 });
