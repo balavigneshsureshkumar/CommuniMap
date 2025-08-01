@@ -650,8 +650,90 @@ section {
     font-size: 1.2rem;
 }
 
-.team {
+.reflections {
     background-color: var(--background-light);
+}
+
+.reflections-pitch {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.reflections-pitch h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.reflections-pitch p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-light);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.reflections-pitch h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.video-item {
+    background: var(--background-light);
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.reflections-briefs {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.reflections-briefs h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.reflections-briefs p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-light);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.reflections-essay {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.reflections-essay h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.reflections-essay p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-light);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.team {
+    background-color: var(--background-gray);
 }
 
 .team-grid {
