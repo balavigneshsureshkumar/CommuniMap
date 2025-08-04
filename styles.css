@@ -768,7 +768,8 @@ section {
 }
 
 .essay-viewer h4,
-.essay-viewer p {
+.essay-viewer p,
+.essay-viewer li {
     margin-top: 10px;
     text-align: left;
 }
