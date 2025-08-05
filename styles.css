@@ -30,7 +30,7 @@ body {
 }
 
 .navbar {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     background: rgba(255, 255, 255, 0.95);
@@ -69,6 +69,10 @@ body {
 }
 
 .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.nav-link.active {
     color: var(--primary-color);
 }
 
@@ -724,7 +728,7 @@ section {
 
 .timeline {
     position: relative;
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
     margin-bottom: 40px;
     height: 4px;
