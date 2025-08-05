@@ -226,7 +226,7 @@ section {
 }
 
 .partners {
-    padding: 60px 0;
+    padding: 15px 0;
     background-color: var(--background-light);
     border-bottom: 1px solid var(--border-color);
 }
@@ -243,8 +243,6 @@ section {
     font-size: 1rem;
     font-weight: 600;
     color: var(--text-light);
-    opacity: 0.7;
-    transition: opacity 0.3s ease;
 }
 
 .partner-logo:hover {
@@ -650,8 +648,12 @@ section {
     font-size: 1.2rem;
 }
 
-.reflections {
+.poster {
     background-color: var(--background-light);
+}
+
+.reflections {
+    background-color: var(--background-gray);
 }
 
 .reflections-pitch {
@@ -823,12 +825,12 @@ section {
 }
 
 .team {
-    background-color: var(--background-gray);
+    background-color: var(--background-light);
 }
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
 }
