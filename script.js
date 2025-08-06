@@ -466,22 +466,22 @@ function openImageModal(imageSrc, imageDescription) {
         });
     });
 
-    let lastScrollTop = 0;
-    const navbar = document.querySelector('.navbar');
+    // let lastScrollTop = 0;
+    // const navbar = document.querySelector('.navbar');
+    
+    // window.addEventListener('scroll', function() {
+    //     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+    //     if (scrollTop > lastScrollTop && scrollTop > 100) {
+    //         navbar.style.transform = 'translateY(-100%)';
+    //     } else {
+    //         navbar.style.transform = 'translateY(0)';
+    //     }
+        
+    //     lastScrollTop = scrollTop;
+    // });
 
-    window.addEventListener('scroll', function () {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-        if (scrollTop > lastScrollTop && scrollTop > 100) {
-            navbar.style.transform = 'translateY(-100%)';
-        } else {
-            navbar.style.transform = 'translateY(0)';
-        }
-
-        lastScrollTop = scrollTop;
-    });
-
-    navbar.style.transition = 'transform 0.3s ease';
+    // navbar.style.transition = 'transform 0.3s ease';
 
     const points = document.querySelectorAll('.timeline-point');
     const essays = document.querySelectorAll('.essay');
