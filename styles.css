@@ -30,7 +30,7 @@ body {
 }
 
 .navbar {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     background: rgba(255, 255, 255, 0.95);
@@ -69,6 +69,10 @@ body {
 }
 
 .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.nav-link.active {
     color: var(--primary-color);
 }
 
@@ -226,7 +230,7 @@ section {
 }
 
 .partners {
-    padding: 60px 0;
+    padding: 15px 0;
     background-color: var(--background-light);
     border-bottom: 1px solid var(--border-color);
 }
@@ -243,8 +247,6 @@ section {
     font-size: 1rem;
     font-weight: 600;
     color: var(--text-light);
-    opacity: 0.7;
-    transition: opacity 0.3s ease;
 }
 
 .partner-logo:hover {
@@ -604,6 +606,10 @@ section {
 
 .prototype-features {
     margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap; /* Ensures that the items wrap on smaller screens */
+    gap: 2rem; /* Adds spacing between the two divs */
+    justify-content: center; /* Centers the divs horizontally */
 }
 
 .feature-showcase {
@@ -611,6 +617,10 @@ section {
     background: var(--background-gray);
     padding: 3rem;
     border-radius: 20px;
+    flex: 1 1 calc(25% - 2rem); /* This makes the divs take up 50% of the space, minus the gap */
+    box-sizing: border-box; /* Makes sure padding doesn’t affect the width calculation */
+    /* Optional: if you want to set a max width for the divs */
+    max-width: 800px;
 }
 
 .feature-showcase h3 {
@@ -651,19 +661,195 @@ section {
     font-size: 1.2rem;
 }
 
-.team {
+.poster {
+    background-color: var(--background-gray);
+}
+
+.reflections {
     background-color: var(--background-light);
+}
+
+.reflections-pitch {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.reflections-pitch h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.reflections-pitch p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-light);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.reflections-pitch h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.video-item {
+    background: var(--background-light);
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.reflections-briefs {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.reflections-briefs h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.reflections-briefs p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-light);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.timeline {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 40px;
+    height: 4px;
+    background: #ccc;
+}
+
+.timeline-point {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background: #ddd;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+.timeline-point.active {
+    background: #4CAF50;
+    transform: translateY(-50%) scale(1.2);
+}
+
+.timeline-label {
+    position: absolute;
+    top: 10px;
+    transform: translateX(-25%);
+    white-space: nowrap;
+    font-size: 13px;
+    color: #444;
+}
+
+.essay-viewer {
+    background: white;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.essay-viewer h4,
+.essay-viewer p,
+.essay-viewer li {
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+.essay {
+    display: none;
+}
+
+.essay.active {
+    display: block;
+}
+
+.reflections-essay {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.reflections-essay h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.reflections-essay p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-light);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.proud-essay-container {
+    background: var(--background-light);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.proud-essay-container h4 {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 5px
+}
+
+.proud-essay-container p {
+    text-align: left;
+}
+
+.team {
+    background-color: var(--background-gray);
 }
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
 }
 
 .team-member {
-    background: var(--background-gray);
+    background: var(--background-light);
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
