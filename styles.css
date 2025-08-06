@@ -141,7 +141,7 @@ body {
 }
 
 .highlight {
-    color: #fafafa;
+    color: #4e6c73;
 }
 
 .hero-description {
@@ -316,6 +316,7 @@ section {
     background: var(--primary-color);
     color: white;
     border-color: var(--primary-color);
+    box-shadow: var(--shadow-hover);
 }
 
 .diagram-item:hover {
