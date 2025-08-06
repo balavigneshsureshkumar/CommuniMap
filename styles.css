@@ -616,7 +616,7 @@ section {
     background: var(--background-gray);
     padding: 3rem;
     border-radius: 20px;
-    flex: 1 1 calc(33% - 2rem); /* This makes the divs take up 50% of the space, minus the gap */
+    flex: 1 1 calc(25% - 2rem); /* This makes the divs take up 50% of the space, minus the gap */
     box-sizing: border-box; /* Makes sure padding doesn’t affect the width calculation */
     /* Optional: if you want to set a max width for the divs */
     max-width: 800px;
