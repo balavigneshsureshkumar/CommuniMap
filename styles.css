@@ -1044,3 +1044,59 @@ html {
 .nav-link:hover::after {
     width: 100%;
 }
+
+
+/* Group timeline points and labels for layout flexibility */
+.timeline-entry {
+  position: absolute;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.timeline-entry .timeline-point {
+  margin-bottom: 6px;
+}
+
+.timeline-entry .timeline-label {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+/* Mobile-friendly timeline layout */
+@media (max-width: 768px) {
+  .timeline {
+    display: flex;
+    overflow-x: auto;
+    height: auto;
+    padding: 20px 0;
+    background: transparent;
+    position: static;
+  }
+
+  .timeline-entry {
+    position: static;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+
+  .timeline-point {
+    position: static;
+    transform: none;
+  }
+
+  .timeline-label {
+    position: static;
+    transform: none;
+  }
+}
+
+/* Ensure essay-viewer is responsive */
+@media (max-width: 768px) {
+  .essay-viewer {
+    width: 95%;
+    padding: 20px;
+  }
+}
