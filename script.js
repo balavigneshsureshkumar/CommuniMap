@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const ideaData = {
         1: {
             title: 'Idea 1 - Pokémon-eqsue Game',
-            description: 'A Pokémon inspired game idea with AR elements. Critters would spawn throughout the map to spur players to relive their childhood dreams to be a Pokémon trainer while also actively traveling and reducing carbon emissions! The amount of CO2 emissions saved will be recorded in a form of an in game CO2 coin for each recorded active travel the player takes.',
+            description: 'A Pokémon inspired game idea with AR elements. Critters would spawn throughout the map to spur players to relive their childhood dreams to be a Pokémon trainer while also actively traveling and reducing carbon emissions! The amount of CO2 emissions saved will be recorded in a form of an in game CO2 coin for each recorded active travel the player takes. (click on images to learn more)',
             imagesData: [
                 {
                     path: 'images/idea-1/photo_1_2025-07-28_21-32-03.jpg',
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
       
     2: {
         title: 'Idea 2 - Competitive Route Finder',
-        description: 'A \'Google Maps\' app gamified to fuel the competitive spirits of players by rewarding them with monetary incentives. Players can use this app like Google Maps by choosing routes to use from a pool of user recorded routes or contribute their own recorded routes it! Each active travel journey will allow players to earn CO2 coins which they could later use for redeeming vouchers or gift cards.',
+        description: 'A \'Google Maps\' app gamified to fuel the competitive spirits of players by rewarding them with monetary incentives. Players can use this app like Google Maps by choosing routes to use from a pool of user recorded routes or contribute their own recorded routes it! Each active travel journey will allow players to earn CO2 coins which they could later use for redeeming vouchers or gift cards. (click on images to learn more)',
         imagesData: [
         {
             path: 'images/idea-2/photo_1_2025-07-28_21-32-40.jpg',
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     3: {
         title: 'Idea 3 - Healthy 365 Clone',
-        description: 'Similar to Singapore\'s Healthy 365 application, this idea works with the premise that there can only be this much CO2 coins that could be earned per day. This motivates players to want to get the most out of their days by actively traveling to earn as much as they could in one day. The CO2 coins could then be used for redemption for coupons or vouchers.',
+        description: 'Similar to Singapore\'s Healthy 365 application, this idea works with the premise that there can only be this much CO2 coins that could be earned per day. This motivates players to want to get the most out of their days by actively traveling to earn as much as they could in one day. The CO2 coins could then be used for redemption for coupons or vouchers. (click on images to learn more)',
         imagesData: [
         {
             path: 'images/idea-3/photo_1_2025-07-28_21-33-05.jpg',
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     4: {
         title: 'Idea 4 - Selected Solution',
-        description: 'A virtual pet game where players can customise their own pets and form a bond with them, caring and playing with them. However, the pets will require CO2 coins to be well taken care of. Players will need to actively travel to earn these CO2 coins in order to feed or unlock more customisations for their pets!',
+        description: 'A virtual pet game where players can customise their own pets and form a bond with them, caring and playing with them. However, the pets will require CO2 coins to be well taken care of. Players will need to actively travel to earn these CO2 coins in order to feed or unlock more customisations for their pets! (click on images to learn more)',
         imagesData: [
         {
             path: 'images/idea-4/photo_1_2025-07-28_21-31-35.jpg',
