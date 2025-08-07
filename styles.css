@@ -859,11 +859,21 @@ section {
 .proud-essay-container h4 {
     text-align: left;
     font-size: 1.5rem;
-    margin-top: 5px
+    margin-top: 20px
 }
 
 .proud-essay-container p {
     text-align: left;
+}
+
+.proud-essay-container li {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.proud-essay-container strong {
+    color: black;
 }
 
 .team {
