@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const ideaData = {
         1: {
             title: 'Idea 1 - Pokémon-eqsue Game',
-            description: 'A Pokémon inspired game idea with AR elements. Critters would spawn throughout the map to spur players to relive their childhood dreams to be a Pokémon trainer while also actively traveling and reducing carbon emissions! The amount of CO2 emissions saved will be recorded in a form of an in game CO2 coin for each recorded active travel the player takes.',
+            description: 'A Pokémon inspired game idea with AR elements. Critters would spawn throughout the map to spur players to relive their childhood dreams to be a Pokémon trainer while also actively traveling and reducing carbon emissions! The amount of CO2 emissions saved will be recorded in a form of an in game CO2 coin for each recorded active travel the player takes. (click on images to learn more)',
             imagesData: [
                 {
                     path: 'images/idea-1/photo_1_2025-07-28_21-32-03.jpg',
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
       
     2: {
         title: 'Idea 2 - Competitive Route Finder',
-        description: 'A \'Google Maps\' app gamified to fuel the competitive spirits of players by rewarding them with monetary incentives. Players can use this app like Google Maps by choosing routes to use from a pool of user recorded routes or contribute their own recorded routes it! Each active travel journey will allow players to earn CO2 coins which they could later use for redeeming vouchers or gift cards.',
+        description: 'A \'Google Maps\' app gamified to fuel the competitive spirits of players by rewarding them with monetary incentives. Players can use this app like Google Maps by choosing routes to use from a pool of user recorded routes or contribute their own recorded routes it! Each active travel journey will allow players to earn CO2 coins which they could later use for redeeming vouchers or gift cards. (click on images to learn more)',
         imagesData: [
         {
             path: 'images/idea-2/photo_1_2025-07-28_21-32-40.jpg',
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     3: {
         title: 'Idea 3 - Healthy 365 Clone',
-        description: 'Similar to Singapore\'s Healthy 365 application, this idea works with the premise that there can only be this much CO2 coins that could be earned per day. This motivates players to want to get the most out of their days by actively traveling to earn as much as they could in one day. The CO2 coins could then be used for redemption for coupons or vouchers.',
+        description: 'Similar to Singapore\'s Healthy 365 application, this idea works with the premise that there can only be this much CO2 coins that could be earned per day. This motivates players to want to get the most out of their days by actively traveling to earn as much as they could in one day. The CO2 coins could then be used for redemption for coupons or vouchers. (click on images to learn more)',
         imagesData: [
         {
             path: 'images/idea-3/photo_1_2025-07-28_21-33-05.jpg',
@@ -166,27 +166,27 @@ document.addEventListener('DOMContentLoaded', function () {
 
     4: {
         title: 'Idea 4 - Selected Solution',
-        description: 'A virtual pet game where players can customise their own pets and form a bond with them, caring and playing with them. However, the pets will require CO2 coins to be well taken care of. Players will need to actively travel to earn these CO2 coins in order to feed or unlock more customisations for their pets!',
+        description: 'A virtual pet game where players can customise their own pets and form a bond with them, caring and playing with them. However, the pets will require CO2 coins to be well taken care of. Players will need to actively travel to earn these CO2 coins in order to feed or unlock more customisations for their pets! (click on images to learn more)',
         imagesData: [
         {
             path: 'images/idea-4/photo_1_2025-07-28_21-31-35.jpg',
-            description: 'Home Screen\nThe top of the screen holds the values for the player\'s daily active travel streak and current CO2 coins. '
+            description: 'Home Screen\nThe top of the screen holds the values for the player\'s daily active travel streak and current CO2 coins. A daily CO2 emissions saved bar is also there to show the user\'s daily progress. The main portion of the screen is the map with the user\'s virtual pet. Within it, a toggle is located near the top right corner to show or hide all points of interests (pulled from the Communi Map\'s database) Below are navigational buttons to the Pet Interaction, Record Active Travel and Leaderboard screens respectively.'
         },
         {
             path: 'images/idea-4/photo_2_2025-07-28_21-31-35.jpg',
-            description: 'Sketches showing different emotions for the pet avatar.'
+            description: 'Record Active Travel Screen\nDuring the recording process, relevant information will be displayed on the screen. The user could pause, stop or take photo of their point of interest as well to contribute to the Communi Map\'s database.'
         },
         {
             path: 'images/idea-4/photo_3_2025-07-28_21-31-35.jpg',
-            description: 'Concepts for how the avatar interacts with the user.'
+            description: 'Journey End Screen\nBy ending the recording process, an end screen will be displayed to show all the quests available. The player can then view their progress on all of these quests before deciding to go for another Active Travel journey or return to Home.'
         },
         {
             path: 'images/idea-4/photo_4_2025-07-28_21-31-35.jpg',
-            description: 'A detailed drawing of the avatar in a specific scenario.'
+            description: 'Leaderboard Screen\nThe leaderboard screen shows the weekly top 5 players in the game who have saved the most CO2 so far. There is also a search bar that allows players to find and view other players\' profiles.'
         },
         {
             path: 'images/idea-4/photo_5_2025-07-28_21-31-35.jpg',
-            description: 'The final, polished design of the selected pet avatar.'
+            description: 'Pet Interaction Screen\nThe pet interaction screen hosts the player\'s pet. Players could customise, interact and take care of their pets here.'
         }
         ]
     }
