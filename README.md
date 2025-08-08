@@ -6,6 +6,10 @@ A website showcasing our gamification enhancement to CommuniMap for encouraging 
 
 University group project that adds pet avatars and CO₂ tracking to CommuniMap to make active travel more engaging.
 
+## Deployed Site
+
+The website is deployed at https://balavigneshsureshkumar.github.io/CommuniMap/
+
 ## Files
 
 - `index.html` - Main website
